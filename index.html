@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Positions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Treasure Position Explorer 🪙</h1>
+    <p>Click a button to move the treasure and learn how it behaves.</p>
+
+    <div class="map" id="map">
+        <div class="treasure" id="treasure">🦩</div>
+    </div>
+
+    <button onclick="changePosition('static')">Static</button>
+     <button onclick="changePosition('relative')">Relative</button>
+     <button onclick="changePosition('absolute')">Absolute</button>
+     <button onclick="changePosition('fixed')">Fixed</button>
+    
+     <div id="message">Click a button to start</div>
+
+    <script src="main.js"></script>
+</body>
+</html>

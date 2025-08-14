@@ -1,0 +1,48 @@
+body{
+    text-align:center;
+    padding:20px;
+    height:200vh;
+    background-color: azure;
+    font-weight: bold;
+    color:rgb(140, 161, 180);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-style: italic;
+}
+
+.map{
+    width:300px;
+    height:200px;
+    background-color:lightblue;
+    border:2px solid black;
+    position:relative;
+    margin:20px auto;
+}
+
+.treasure{
+    width:50px;
+    background-color:gold;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    font-size:24px;
+    position:static;
+}
+
+button{
+    margin:5px;
+    padding:10px;
+    font-size:15px;
+    border-radius:10px;
+    color:rgb(124, 145, 165);
+    background-color: rgb(144, 252, 252);
+    font-weight:bold;
+}
+
+#message{
+    margin-top:10px;
+    font-style: italic;
+    font-weight:bold;
+}
